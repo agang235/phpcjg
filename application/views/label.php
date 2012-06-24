@@ -65,7 +65,7 @@
 	                ri.style.height = li.style.height = ri.offsetHeight + 'px';
 	            }
 	    }
-	});
+ 	});
 	
 	function del(obj){
 		if(confirm('Are you sure to delete ?')){
