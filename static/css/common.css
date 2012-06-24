@@ -1,0 +1,240 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: Lucida Grande, Verdana, Sans-serif;
+    font-size: 14px;
+    color: #4F5155;
+}
+
+a {
+    color: #003399;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+h1 {
+    color: #444;
+    background-color: transparent;
+    border-bottom: 1px solid #D0D0D0;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 24px 0 2px 0;
+    padding: 5px 0 6px 0;
+}
+
+.fl {
+    float: left !important;
+}
+
+.fr {
+    float: right !important;
+}
+.hide{
+	display: none;
+}
+
+.cl:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.cl {
+    zoom: 1;
+}
+
+.mt5 {
+    margin-top: 5px !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.ml5 {
+    margin-left: 5px !important;
+}
+
+.ml10 {
+    margin-left: 10px !important;
+}
+
+.mr5 {
+    margin-right: 5px !important;
+}
+
+.mr10 {
+    margin-right: 10px !important;
+}
+
+.w960 {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.ip_text {
+    width: 200px;
+    height: 30px;
+}
+
+.err {
+    color: #FF0000;
+}
+
+.suc {
+    color: #008040;
+}
+
+.bbb {
+    background-color: #bbb;
+}
+
+.fwb, .message {
+    font-weight: bold;
+}
+
+form i {
+    color: #FF0000;
+}
+/* shangxia-single START */
+#shangxia{position:absolute;top:40%;right:5%;display:block;}
+#shang{/*background:url(resources/shangxia.gif) no-repeat;*/position:relative;cursor:pointer;height:42px;width:32px;margin:10px 0;}
+#comt{/*background:url(resources/shangxia.gif) no-repeat center -45px;*/position:relative;cursor:pointer;height:32px;width:32px;margin:10px 0;}
+#xia{/*background:url(resources/shangxia.gif) no-repeat center -78px;*/position:relative;cursor:pointer;height:42px;width:32px;margin:10px 0;}
+/* shangxia-single END */
+
+/* 顶部 */
+#topbar {
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+    margin: 0 auto;
+}
+
+.gbh {
+    border-top: 1px solid #C9D7F1;
+}
+
+/* 注册 */
+.tvm table td {
+    vertical-align: middle;
+}
+
+.inputstyle {
+    border: 1px solid #CCC;
+    padding: 3px 5px;
+    border-top-color: #777;
+    border-left-color: #777;
+}
+
+/* 表单 */
+.j_f #title {
+    width: 300px;
+}
+
+.j_f textarea {
+    width: 240px;
+    height: 80px;
+}
+
+.j_f div label {
+    width: 60px;
+}
+
+/* 列表  */
+.j_list .title {
+    font-weight: bold;
+}
+
+.j_list .ask {
+    text-indent: 5px;
+}
+
+/* label */
+.xrk {
+    margin: 0 10px 0 0;
+}
+
+.xrk, .xmk {
+	display: inline-block;
+	padding: 2px 10px 4px 10px;
+    background: #E1F0F7;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+	text-shadow: 0 1px 0 #ccc;
+    margin: 0 5px 5px 0;
+    float: left;
+}
+
+.xrk:hover {
+    background: #259;;
+    color: #fff;
+    text-decoration: none;
+}
+
+.xmk {
+    background: #36921f;
+    color: #fff;
+    text-decoration: none;
+}
+
+.label a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* modal */
+#simplemodal-overlay {
+    background-color: black;
+    cursor: wait;
+}
+
+#simplemodal-container a.modalCloseImg {
+    background: url(../images/main/x.png) no-repeat;
+    width: 25px;
+    height: 29px;
+    display: inline;
+    z-index: 3200;
+    position: absolute;
+    top: -15px;
+    right: -16px;
+    cursor: pointer;
+}
+
+.cat_name a{
+    display: inline-block;
+    position: relative;
+    color: #333;
+    background: #DFDFDF;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.07,#E6E6E6),color-stop(0.77,#D8D8D8));
+	background-image: -webkit-linear-gradient(bottom,#E6E6E6 7%,#D8D8D8 77%);
+	background-image: -moz-linear-gradient(bottom,#E6E6E6 7%,#D8D8D8 77%);
+	background-image: -ms-linear-gradient(bottom,#E6E6E6 7%,#D8D8D8 77%);
+	background-image: -o-linear-gradient(bottom,#E6E6E6 7%,#D8D8D8 77%);
+	background-image: linear-gradient(bottom,#E6E6E6 7%,#D8D8D8 77%);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #B4B4B4;
+	font-style: normal;
+	line-height: 16px;
+	font-size: 14px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 white;
+	padding: 2px;
+}

@@ -1,0 +1,22 @@
+        <VirtualHost *:80>
+                ServerName  phpcangjingge.org 
+                DocumentRoot "E:\org"  
+                <Directory "E:\org">  
+                        Options FollowSymLinks
+                        IndexOptions Charset=utf-8
+			IndexIgnore *~
+                        AllowOverride All 
+                        Order allow,deny
+                        Allow from all 
+                      #  Deny from  127.0.0.0/8
+                     #   Deny from  127.0.0.1,localhost,127.0.1.1,127.0.1.0,127.0.1.2
+                </Directory>
+        DirectoryIndex  index.php index.html
+        ErrorDocument 402 nogcn_402.html
+        ErrorDocument 403 nogcn_403.html
+        ErrorDocument 404 nogcn_404.html
+       </VirtualHost>
+
+
+
+

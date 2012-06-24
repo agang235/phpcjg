@@ -1,0 +1,11 @@
+RewriteEngine On
+
+#请修改成自己的目录
+RewriteBase /
+
+#跳过已经存在的文件和目录
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#将参数指向index.php
+RewriteRule ^(.*)$ index.php/$1 [L]
