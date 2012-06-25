@@ -1,0 +1,18 @@
+table {
+	color: #4B636B;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	table-layout : fixed;
+	height: 100px;
+}
+td, th {
+	border: solid 1px #E3EFF5;
+	text-align: left;
+	line-height: 36px;
+	padding: 0 5px;
+	overflow:hidden;
+}
+.red{
+	color:#F00;
+}
