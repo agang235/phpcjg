@@ -243,7 +243,7 @@ if ( ! function_exists('tidy_html'))
     function tidy_html($html)
     {
         $tidy = new tidy();
-        $html = $tidy->repairString($html, array(), 'utf8');
+        $html = $tidy->repairString($html, array(), 'utf8');//yes I always use utf8
         return preg_replace('/<body>(.*?)<\/body>/is', "$1", $html);
     }
 }
