@@ -222,3 +222,28 @@ if ( ! function_exists('fix_tag'))
 		return $result;
 	}
 }
+
+if ( ! function_exists('tidy_html'))
+{
+    /**
+     * use tidy to clean html
+     *
+     * attention: 
+     * for windows php.ini 
+     * uncomment this line
+     * extension=php_tidy.dll 
+     * 
+     * obvious you can use "php -m"  to see the module 
+     * you have
+     * @param mixed $html 
+     * @access public
+     * @return void
+     * @author hl <huanle0610@gmail.com> 
+     */
+    function tidy_html($html)
+    {
+        $tidy = new tidy();
+        $html = $tidy->repairString($html, array(), 'utf8');
+        return preg_replace('/<body>(.*?)<\/body>/is', "$1", $html);
+    }
+}
